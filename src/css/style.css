@@ -295,6 +295,14 @@ footer section:nth-of-type(2) {
 	main section:last-of-type input[type="password"] {
 		width: 90%;
 	}
+
+	footer::after {
+		width: 85%;
+	}
+
+	footer section {
+		width: 85%;
+	}
 }
 
 @media (max-width: 1199.9px) and (min-width: 1001px) {
@@ -312,6 +320,14 @@ footer section:nth-of-type(2) {
 
 	main section:last-of-type form {
 		max-width: 90%;
+	}
+
+	footer::after {
+		width: 90%;
+	}
+
+	footer section {
+		width: 90%;
 	}
 }
 
@@ -336,17 +352,30 @@ footer section:nth-of-type(2) {
 		margin-left: 8rem;
 		justify-content: right;
 	}
+
 	main section:last-of-type input[type="text"] {
 		max-width: 47.3%;
 	}
+
 	main section:last-of-type form {
 		max-width: 100%;
 	}
+
 	main section:first-of-type {
 		height: auto;
 		min-width: 400px;
 	}
+
 	main section:last-of-type div button {
 		width: 40%;
+	}
+
+	footer::after {
+		width: 100%;
+	}
+
+	footer section {
+		width: 100%;
+		margin: 0;
 	}
 }
