@@ -17,10 +17,6 @@ button {
 	text-decoration: none;
 }
 
-#wrapper {
-	/* background-color: red; */
-}
-
 header {
 	display: grid;
 	grid-template-areas: "logo logo logo  head head head";
@@ -282,6 +278,10 @@ footer section:nth-of-type(2) {
 
 /* responsiveness */
 @media (max-width: 1330.9px) and (min-width: 1200px) {
+	header form {
+		margin-left: 7rem;
+	}
+
 	main section:last-of-type form {
 		max-width: 80.5%;
 		margin-right: 0;
@@ -297,7 +297,12 @@ footer section:nth-of-type(2) {
 	}
 }
 
-@media (max-width: 1199.9px) and (min-width: 1000px) {
+@media (max-width: 1199.9px) and (min-width: 1001px) {
+	header form {
+		justify-self: right;
+		margin-left: 10rem;
+	}
+
 	main section:last-of-type input[type="text"] {
 		max-width: 47.5%;
 	}
@@ -310,7 +315,23 @@ footer section:nth-of-type(2) {
 	}
 }
 
-@media screen and (max-width: 999.9px) {
+@media screen and (max-width: 1000.9px) {
+	header {
+		padding-left: 0;
+	}
+	h1 {
+		justify-self: left;
+	}
+
+	header form {
+		justify-self: right;
+		margin-left: 30rem;
+	}
+
+	header button {
+		width: 15%;
+	}
+
 	main section:last-of-type {
 		margin-left: 8rem;
 		justify-content: right;
