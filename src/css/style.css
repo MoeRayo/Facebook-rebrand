@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: inherit;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+#wrapper {
+	/* background-color: red; */
+	min-width: 1000px;
+}
+
+header {
+	display: grid;
+	grid-template-areas: "logo logo logo  head head head";
+	padding: 1rem 1rem 0.5rem;
+	background-color: #3b5998;
+	color: #ffffff;
+}
+h1 {
+	grid-area: logo;
+	font-size: 2.5rem;
+	font-family: "Open Sans", sans-serif;
+	justify-self: center;
+	font-weight: 700;
+}
+
+header form {
+	grid-area: head;
+	justify-self: center;
+	font-family: "Lato", sans-serif;
+	display: flex;
+	flex-flow: row;
+}
+
+header form label {
+	display: block;
+	font-size: 0.83rem;
+	width: 73%;
+}
+
+header label input:last-of-type {
+	margin-bottom: 0.4rem;
+}
+
+header label:last-of-type::after {
+	content: "Forgotten account?";
+	color: #b5cddfb2;
+	font-size: 0.8rem;
+}
+
+header form label span {
+	display: block;
+	margin-bottom: 0.4rem;
+}
+
+header label input {
+	padding: 0.15rem 0.4rem;
+	border: none;
+	width: 92%;
+	display: inline-block;
+}
+
+header label input:focus-within {
+	background-color: #fff8c5;
+}
+
+header button {
+	align-self: center;
+	background-color: #4267b2;
+	border: 1.5px solid #243a6b;
+	color: #ffffff;
+	padding: 0.15rem 0;
+	width: 18%;
+}
+
+header button:hover,
+header button:active {
+	background-color: #3b5998;
+}
