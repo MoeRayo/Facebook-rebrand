@@ -99,41 +99,38 @@ main {
 	background: linear-gradient(to bottom, #ffffff 5%, #e3e4e8 50%, #d4d9eb 75%);
 }
 
-section:first-of-type {
+main section:first-of-type {
 	grid-area: intro;
 	padding: 3rem 0;
 	display: flex;
 	flex-flow: column;
 }
 
-section:first-of-type p {
+main section:first-of-type p {
 	color: #0e385f;
 	font-family: "Merriweather Sans", sans-serif;
 	font-weight: 600;
 	font-size: 1.16rem;
 	align-self: center;
 	line-height: 2rem;
-	/* text-align: left; */
 }
 
-section:first-of-type img {
+main section:first-of-type img {
 	display: block;
 	height: auto;
 	max-width: 100%;
 	margin: 0 auto;
-	/* margin-left: -5rem; */
 }
 
-section:last-of-type {
+main section:last-of-type {
 	grid-area: register;
-	/* justify-self: left; */
 }
 
-section:last-of-type form {
+main section:last-of-type form {
 	max-width: 60.5%;
 }
 
-section:last-of-type h3 {
+main section:last-of-type h3 {
 	color: #333333;
 	font-family: "Merriweather Sans", sans-serif;
 	font-weight: 700;
@@ -141,14 +138,14 @@ section:last-of-type h3 {
 	padding: 1.3rem 0 0 0.5rem;
 }
 
-section:last-of-type > p {
+main section:last-of-type > p {
 	color: #1d2129;
 	font-family: "Merriweather Sans", sans-serif;
 	font-size: 1.1rem;
 	padding: 0.6rem 0;
 }
 
-section:last-of-type input {
+main section:last-of-type input {
 	padding: 0.5rem;
 	border-radius: 5px;
 	border: 1.5px solid #bdc7d8;
@@ -158,29 +155,29 @@ section:last-of-type input {
 	font-weight: 400;
 }
 
-section:last-of-type input[type="text"] {
+main section:last-of-type input[type="text"] {
 	display: inline-block;
 	margin-bottom: 1rem;
 	max-width: 47.5%;
 }
 
-section:last-of-type input[type="text"]:first-of-type {
+main section:last-of-type input[type="text"]:first-of-type {
 	margin-right: 0.95rem;
 }
 
-section:last-of-type input[type="email"],
-section:last-of-type input[type="password"] {
+main section:last-of-type input[type="email"],
+main section:last-of-type input[type="password"] {
 	display: block;
 	width: 100%;
 	margin-bottom: 1rem;
 }
 
-input::placeholder {
+main input::placeholder {
 	color: #6e6868;
 	font-weight: 600;
 }
 
-section:last-of-type form p {
+main section:last-of-type form p {
 	color: #90949c;
 	font-family: "Merriweather Sans", sans-serif;
 	margin-bottom: 0.5rem;
@@ -188,14 +185,14 @@ section:last-of-type form p {
 	font-weight: 600;
 }
 
-i {
+main i {
 	font-size: 0.9rem;
 	color: #746f6f;
 	padding-left: 0.5rem;
 	vertical-align: super;
 }
 
-section:last-of-type label {
+main section:last-of-type label {
 	font-family: "Lato", sans-serif;
 	font-weight: bold;
 	color: #1b1a1a;
@@ -203,20 +200,20 @@ section:last-of-type label {
 	padding-left: 1.5rem;
 }
 
-section:last-of-type div {
+main section:last-of-type div {
 	margin: 1rem 0;
 	font-family: "Lato", sans-serif;
 	color: grey;
 }
 
-section:last-of-type div p:first-of-type {
+main section:last-of-type div p:first-of-type {
 	font-size: 0.75rem;
 }
 
-section:last-of-type div a {
+main section:last-of-type div a {
 	color: #4e4ea7;
 }
-section:last-of-type div button {
+main section:last-of-type div button {
 	background-color: #69a74e;
 	padding: 10px 0;
 	color: #ffffff;
@@ -229,7 +226,57 @@ section:last-of-type div button {
 	margin: 1.2rem 0 1.5rem;
 }
 
-section:last-of-type div p:last-of-type {
+main section:last-of-type div p:last-of-type {
 	font-size: 0.9rem;
 	font-weight: bold;
+	margin: 2rem 0;
+}
+
+/* footer */
+
+footer {
+	grid-area: footer;
+	padding: 1.5rem 0;
+}
+
+footer::after {
+	content: "facebook \00A9  2020";
+	color: #333333;
+	font-size: 0.8rem;
+	font-family: "Merriweather Sans", sans-serif;
+	width: 65%;
+	display: block;
+	margin: 0.8rem auto 0;
+}
+
+footer section {
+	width: 65%;
+	margin: 0 auto;
+}
+
+footer section:first-of-type {
+	border-bottom: 1px solid #bdc7d8;
+	padding-bottom: 0.65rem;
+}
+
+footer section a {
+	font-family: "Merriweather Sans", sans-serif;
+	font-size: 0.7rem;
+	color: #385898;
+	padding-right: 1.1rem;
+}
+
+footer section:first-of-type a:first-of-type {
+	color: grey;
+}
+
+footer i {
+	color: grey;
+	background-color: #ebedf0;
+	padding: 0.2rem 0.5rem;
+	border: 1px solid #bdc7d8;
+}
+
+footer section:nth-of-type(2) {
+	padding: 0.5rem 0;
 }
