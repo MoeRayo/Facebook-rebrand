@@ -101,7 +101,9 @@ main {
 
 section:first-of-type {
 	grid-area: intro;
-	justify-self: right;
+	padding: 3rem 0;
+	display: flex;
+	flex-flow: column;
 }
 
 section:first-of-type p {
@@ -109,10 +111,22 @@ section:first-of-type p {
 	font-family: "Merriweather Sans", sans-serif;
 	font-weight: 600;
 	font-size: 1.16rem;
+	align-self: center;
+	line-height: 2rem;
+	/* text-align: left; */
+}
+
+section:first-of-type img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+	/* margin-left: -5rem; */
 }
 
 section:last-of-type {
 	grid-area: register;
+	/* justify-self: left; */
 }
 
 section:last-of-type form {
