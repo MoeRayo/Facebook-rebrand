@@ -13,6 +13,7 @@ body {
 a,
 button {
 	cursor: pointer;
+	text-decoration: none;
 }
 
 #wrapper {
@@ -88,3 +89,5 @@ header button:hover,
 header button:active {
 	background-color: #3b5998;
 }
+
+/* main style */
