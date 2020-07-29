@@ -17,10 +17,6 @@ button {
 	text-decoration: none;
 }
 
-#wrapper {
-	/* background-color: red; */
-}
-
 header {
 	display: grid;
 	grid-template-areas: "logo logo logo  head head head";
@@ -233,7 +229,6 @@ main section:last-of-type div p:last-of-type {
 }
 
 /* footer */
-
 footer {
 	grid-area: footer;
 	padding: 1.5rem 0;
@@ -279,4 +274,108 @@ footer i {
 
 footer section:nth-of-type(2) {
 	padding: 0.5rem 0;
+}
+
+/* responsiveness */
+@media (max-width: 1330.9px) and (min-width: 1200px) {
+	header form {
+		margin-left: 7rem;
+	}
+
+	main section:last-of-type form {
+		max-width: 80.5%;
+		margin-right: 0;
+	}
+
+	main section:last-of-type input[type="text"] {
+		max-width: 43%;
+	}
+
+	main section:last-of-type input[type="email"],
+	main section:last-of-type input[type="password"] {
+		width: 90%;
+	}
+
+	footer::after {
+		width: 85%;
+	}
+
+	footer section {
+		width: 85%;
+	}
+}
+
+@media (max-width: 1199.9px) and (min-width: 1001px) {
+	header form {
+		justify-self: right;
+		margin-left: 10rem;
+	}
+
+	main section:last-of-type input[type="text"] {
+		max-width: 47.5%;
+	}
+	main section:last-of-type {
+		justify-self: right;
+	}
+
+	main section:last-of-type form {
+		max-width: 90%;
+	}
+
+	footer::after {
+		width: 90%;
+	}
+
+	footer section {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 1000.9px) {
+	header {
+		padding-left: 0;
+	}
+	h1 {
+		justify-self: left;
+	}
+
+	header form {
+		justify-self: right;
+		margin-left: 30rem;
+	}
+
+	header button {
+		width: 15%;
+	}
+
+	main section:last-of-type {
+		margin-left: 8rem;
+		justify-content: right;
+	}
+
+	main section:last-of-type input[type="text"] {
+		max-width: 47.3%;
+	}
+
+	main section:last-of-type form {
+		max-width: 100%;
+	}
+
+	main section:first-of-type {
+		height: auto;
+		min-width: 400px;
+	}
+
+	main section:last-of-type div button {
+		width: 40%;
+	}
+
+	footer::after {
+		width: 100%;
+	}
+
+	footer section {
+		width: 100%;
+		margin: 0;
+	}
 }
