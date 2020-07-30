@@ -20,13 +20,15 @@
 			integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" media="(pointer)" href="css/touch-screen.css" />
+		<link rel="stylesheet" media="(pointer:coarse)" href="css/style.css" />
+
 		<title>Facebook</title>
 	</head>
 
 	<body>
-		<!-- this wraps the whole document -->
-		<div id="wrapper">
+		<!-- this wraps the devices that works with a pointer or hover -->
+		<div>
 			<header>
 				<h1>facebook</h1>
 				<form action="">
@@ -212,6 +214,45 @@
 					<a href="">Help</a>
 				</section>
 			</footer>
+		</div>
+
+		<!-- this wrpas devices that do not work with hover or pointer -->
+		<div>
+			<h1>facebook</h1>
+
+			<form action="">
+				<input
+					type="email"
+					name=""
+					id=""
+					placeholder="Mobile number or email address"
+				/>
+				<input type="password" name="" id="" placeholder="password" />
+
+				<button type="submit">Log in</button>
+				<p>or</p>
+				<button>Create New Account</button>
+			</form>
+			<a href="#">Forgotten password</a>
+
+				<div>
+					<a href="">English (UK)</a>
+					<a href="">Hausa</a>
+					<a href="">Português (Brasil)</a>
+					<a href="">Français (France)</a>
+					<a href="">Español</a>
+					<a href="">العربية</a>
+					<a href=""> Deutsch</a>
+					<i class="fas fa-plus"></i>
+				</div>
+				<footer>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">More</a></li>
+					</ul>
+					</p>Facebook Inc</p>
+				</footer>
 		</div>
 	</body>
 </html>

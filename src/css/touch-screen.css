@@ -1,0 +1,7 @@
+body div:first-of-type {
+	display: none;
+}
+
+/* body :last-child {
+	display: unset;
+} */
