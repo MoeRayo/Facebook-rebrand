@@ -21,12 +21,14 @@ button {
 	text-decoration: none;
 }
 
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+
 #laptop-wrapper {
 	display: none;
 }
-/* body div:first-of-type {
-	display: none;
-} */
 
 #touch-wrapper {
 	background-color: #e4e7f1;

@@ -11,14 +11,18 @@ body {
 	min-width: 1000px;
 }
 
-body :first-child {
-	/* display: none; */
+#touch-wrapper {
+	display: none;
 }
 
 a,
 button {
 	cursor: pointer;
 	text-decoration: none;
+}
+a:hover,
+a:active {
+	text-decoration: underline;
 }
 
 header {
