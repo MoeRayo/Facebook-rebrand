@@ -90,9 +90,8 @@ header button:active {
 main {
 	display: grid;
 	grid-template-areas: "intro intro intro register register register";
-	background: red;
-
-	/* background: linear-gradient(to bottom, #ffffff 5%, #e3e4e8 50%, #d4d9eb 75%); */
+	background:#b1b1db;
+	background: linear-gradient(to bottom, #ffffff 5%, #e3e4e8 50%, #d4d9eb 75%);
 }
 
 main section:first-of-type {
@@ -378,4 +377,4 @@ footer section:nth-of-type(2) {
 		width: 100%;
 		margin: 0;
 	}
-}
+padding: 0.5rem 0;
