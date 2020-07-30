@@ -63,6 +63,7 @@ button[type="submit"] {
 	width: 30%;
 	border: 1px solid #3b1ebd;
 	background-color: #3b1ebd;
+	margin: 0.5rem 0 1rem;
 }
 
 button[type="button"] {
@@ -70,9 +71,68 @@ button[type="button"] {
 	width: 13%;
 }
 form button:first-of-type + p {
-	/* color; */
-	/* border-bottom: 2px solid red; */
+	font-family: "Lato", sans-serif;
+	margin-bottom: 1rem;
 }
-/* body :last-child {
-	display: unset;
-} */
+
+form + a {
+	color: #4a3a8d;
+	font-size: 0.8rem;
+	font-family: "Lato", sans-serif;
+	margin: 1rem 0 1rem;
+	display: block;
+}
+
+#touch-wrapper div {
+	display: grid;
+	grid-template-areas:
+		"langone langtwo"
+		"langthree langfour"
+		"langfive langsix"
+		"langseven langeight";
+	width: 30%;
+	margin: 0 auto;
+}
+
+#touch-wrapper div a {
+	color: #4a3a8d;
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+#touch-wrapper div a:nth-of-type(1) {
+	grid-area: langone;
+}
+#touch-wrapper div a:nth-of-type(2) {
+	grid-area: langtwo;
+}
+
+#touch-wrapper div a:nth-of-type(3) {
+	grid-area: langthree;
+}
+
+#touch-wrapper div a:nth-of-type(4) {
+	grid-area: langfour;
+}
+
+#touch-wrapper div a:nth-of-type(5) {
+	grid-area: langfive;
+}
+
+#touch-wrapper div a:nth-of-type(6) {
+	grid-area: langsix;
+}
+
+#touch-wrapper div a:nth-of-type(7) {
+	grid-area: langseven;
+}
+
+#touch-wrapper div a:nth-of-type(8) {
+	grid-area: langeight;
+	color: grey;
+}
+#touch-wrapper div a:nth-of-type(8) i {
+	background-color: #ebedf0;
+	padding: 0.2rem 0.5rem;
+	border: 1px solid #bdc7d8;
+}
