@@ -11,6 +11,10 @@ body {
 	min-width: 1000px;
 }
 
+#laptop-wrapper {
+	display: unset;
+}
+
 #touch-wrapper {
 	display: none;
 }
