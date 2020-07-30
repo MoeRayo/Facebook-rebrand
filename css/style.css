@@ -83,7 +83,7 @@ header label input:focus-within {
 header button {
 	align-self: center;
 	background-color: #4267b2;
-	border: 1.5px solid #243a6b;
+	border: 0.5px solid #243a6b;
 	color: #ffffff;
 	padding: 0.15rem 0;
 	width: 10%;
@@ -130,7 +130,7 @@ main section:last-of-type {
 }
 
 main section:last-of-type form {
-	max-width: 60.5%;
+	max-width: 61%;
 }
 
 main section:last-of-type h3 {
@@ -151,7 +151,7 @@ main section:last-of-type > p {
 main section:last-of-type input {
 	padding: 0.5rem;
 	border-radius: 5px;
-	border: 1.5px solid #bdc7d8;
+	border: 0.5px solid #bdc7d8;
 	color: #000000;
 	font-family: "Lato", sans-serif;
 	font-size: 1.2rem;
@@ -286,7 +286,16 @@ footer section:nth-of-type(2) {
 /* responsiveness */
 @media (max-width: 1330.9px) and (min-width: 1200px) {
 	header form {
-		margin-left: 7rem;
+		justify-self: left;
+		margin-left: 23rem;
+	}
+
+	header label input {
+		width: 90%;
+	}
+
+	header form label {
+		width: 27.5%;
 	}
 
 	main section:last-of-type form {
@@ -314,13 +323,21 @@ footer section:nth-of-type(2) {
 
 @media (max-width: 1199.9px) and (min-width: 1001px) {
 	header form {
-		justify-self: right;
-		margin-left: 10rem;
+		margin-left: 23rem;
+	}
+
+	header label input {
+		width: 90%;
+	}
+
+	header form label {
+		width: 27.5%;
 	}
 
 	main section:last-of-type input[type="text"] {
 		max-width: 47.5%;
 	}
+
 	main section:last-of-type {
 		justify-self: right;
 	}
