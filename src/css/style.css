@@ -90,7 +90,7 @@ header button:active {
 main {
 	display: grid;
 	grid-template-areas: "intro intro intro register register register";
-	background: #b1b1db;
+	background: red;
 
 	background: linear-gradient(to bottom, #ffffff 5%, #e3e4e8 50%, #d4d9eb 75%);
 }
