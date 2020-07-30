@@ -169,3 +169,60 @@ form + a {
 #touch-wrapper li:first-of-type {
 	list-style: none;
 }
+
+@media (max-width: 1199.9px) and (min-width: 1000px) {
+	input {
+		width: 40%;
+	}
+
+	button[type="submit"] {
+		width: 40%;
+	}
+
+	button[type="button"] {
+		background-color: #13a013;
+		width: 16%;
+	}
+
+	#touch-wrapper div {
+		width: 40%;
+	}
+}
+
+@media (max-width: 999.9px) and (min-width: 600px) {
+	input {
+		width: 50%;
+	}
+
+	button[type="submit"] {
+		width: 50%;
+	}
+
+	button[type="button"] {
+		background-color: #13a013;
+		width: 27%;
+	}
+
+	#touch-wrapper div {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 599.9px) {
+	form {
+		width: 90%;
+	}
+	input {
+		width: 100%;
+	}
+	button[type="submit"] {
+		width: 100%;
+	}
+	button[type="button"] {
+		background-color: #13a013;
+		width: 40%;
+	}
+	#touch-wrapper div {
+		width: 100%;
+	}
+}
