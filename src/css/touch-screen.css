@@ -1,0 +1,230 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	box-sizing: inherit;
+	height: 100%;
+}
+
+a,
+button {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+
+#laptop-wrapper {
+	display: none;
+}
+
+#touch-wrapper {
+	background-color: #e4e7f1;
+	text-align: center;
+	padding: 1rem;
+	height: 100%;
+}
+
+h1 {
+	color: #2f07e2;
+	font-family: "Open Sans", sans-serif;
+}
+
+form {
+	margin: 1.5rem auto 0.5rem;
+}
+
+input {
+	display: block;
+	margin: 0 auto;
+	padding: 0.8rem;
+	width: 30%;
+	border-radius: 5px;
+	background-color: #c2c2d1;
+	border: 1px solid #c2c2d1;
+	margin-bottom: 0.8rem;
+}
+
+button {
+	color: #ffffff;
+	padding: 0.7rem 0;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+button[type="submit"] {
+	width: 30%;
+	border: 1px solid #3b1ebd;
+	background-color: #3b1ebd;
+	margin: 0.5rem 0 1rem;
+}
+
+button[type="button"] {
+	background-color: #13a013;
+	width: 13%;
+}
+form button:first-of-type + p {
+	font-family: "Lato", sans-serif;
+	margin-bottom: 1rem;
+}
+
+form + a {
+	color: #4a3a8d;
+	font-size: 0.8rem;
+	font-family: "Lato", sans-serif;
+	margin: 1rem 0 1rem;
+	display: block;
+}
+
+#touch-wrapper div {
+	display: grid;
+	grid-template-areas:
+		"langone langtwo"
+		"langthree langfour"
+		"langfive langsix"
+		"langseven langeight";
+	width: 30%;
+	margin: 0 auto;
+}
+
+#touch-wrapper div a {
+	color: #4a3a8d;
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+#touch-wrapper div a:nth-of-type(1) {
+	grid-area: langone;
+}
+#touch-wrapper div a:nth-of-type(2) {
+	grid-area: langtwo;
+}
+
+#touch-wrapper div a:nth-of-type(3) {
+	grid-area: langthree;
+}
+
+#touch-wrapper div a:nth-of-type(4) {
+	grid-area: langfour;
+}
+
+#touch-wrapper div a:nth-of-type(5) {
+	grid-area: langfive;
+}
+
+#touch-wrapper div a:nth-of-type(6) {
+	grid-area: langsix;
+}
+
+#touch-wrapper div a:nth-of-type(7) {
+	grid-area: langseven;
+}
+
+#touch-wrapper div a:nth-of-type(8) {
+	grid-area: langeight;
+	color: grey;
+}
+#touch-wrapper div a:nth-of-type(8) i {
+	background-color: #ebedf0;
+	padding: 0.2rem 0.5rem;
+	border: 1px solid #bdc7d8;
+}
+
+#touch-wrapper footer {
+	margin-top: 2rem;
+}
+
+#touch-wrapper footer p {
+	padding: 1rem;
+	color: grey;
+	font-size: 0.8rem;
+	font-family: "Merriweather Sans", sans-serif;
+}
+
+#touch-wrapper footer ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	color: grey;
+	font-size: 0.8rem;
+
+	font-family: "Merriweather Sans", sans-serif;
+}
+
+#touch-wrapper footer li {
+	padding-right: 1.5rem;
+}
+
+#touch-wrapper li:first-of-type {
+	list-style: none;
+}
+
+@media (max-width: 1199.9px) and (min-width: 1000px) {
+	input {
+		width: 40%;
+	}
+
+	button[type="submit"] {
+		width: 40%;
+	}
+
+	button[type="button"] {
+		background-color: #13a013;
+		width: 16%;
+	}
+
+	#touch-wrapper div {
+		width: 40%;
+	}
+}
+
+@media (max-width: 999.9px) and (min-width: 600px) {
+	input {
+		width: 50%;
+	}
+
+	button[type="submit"] {
+		width: 50%;
+	}
+
+	button[type="button"] {
+		background-color: #13a013;
+		width: 27%;
+	}
+
+	#touch-wrapper div {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 599.9px) {
+	form {
+		width: 90%;
+	}
+	input {
+		width: 100%;
+	}
+	button[type="submit"] {
+		width: 100%;
+	}
+	button[type="button"] {
+		background-color: #13a013;
+		width: 40%;
+	}
+	#touch-wrapper div {
+		width: 100%;
+	}
+}
