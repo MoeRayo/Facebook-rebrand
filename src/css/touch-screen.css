@@ -6,8 +6,13 @@
 	padding: 0;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	box-sizing: inherit;
+	height: 100%;
 }
 
 a,
@@ -27,7 +32,7 @@ button {
 	background-color: #e4e7f1;
 	text-align: center;
 	padding: 1rem;
-	height: 100vh;
+	height: 100%;
 }
 
 h1 {
@@ -37,7 +42,6 @@ h1 {
 
 form {
 	margin: 1.5rem auto 0.5rem;
-	/* background-color: red; */
 }
 
 input {
@@ -46,7 +50,7 @@ input {
 	padding: 0.8rem;
 	width: 30%;
 	border-radius: 5px;
-	background-color: #d6d7db;
+	background-color: #c2c2d1;
 	border: 1px solid #c2c2d1;
 	margin-bottom: 0.8rem;
 }
@@ -135,4 +139,33 @@ form + a {
 	background-color: #ebedf0;
 	padding: 0.2rem 0.5rem;
 	border: 1px solid #bdc7d8;
+}
+
+#touch-wrapper footer {
+	margin-top: 2rem;
+}
+
+#touch-wrapper footer p {
+	padding: 1rem;
+	color: grey;
+	font-size: 0.8rem;
+	font-family: "Merriweather Sans", sans-serif;
+}
+
+#touch-wrapper footer ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	color: grey;
+	font-size: 0.8rem;
+
+	font-family: "Merriweather Sans", sans-serif;
+}
+
+#touch-wrapper footer li {
+	padding-right: 1.5rem;
+}
+
+#touch-wrapper li:first-of-type {
+	list-style: none;
 }
