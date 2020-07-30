@@ -1,7 +1,78 @@
-body div:first-of-type {
-	display: none;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
+body {
+	box-sizing: inherit;
+}
+
+a,
+button {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#laptop-wrapper {
+	display: none;
+}
+/* body div:first-of-type {
+	display: none;
+} */
+
+#touch-wrapper {
+	background-color: #e4e7f1;
+	text-align: center;
+	padding: 1rem;
+	height: 100vh;
+}
+
+h1 {
+	color: #2f07e2;
+	font-family: "Open Sans", sans-serif;
+}
+
+form {
+	margin: 1.5rem auto 0.5rem;
+	/* background-color: red; */
+}
+
+input {
+	display: block;
+	margin: 0 auto;
+	padding: 0.8rem;
+	width: 30%;
+	border-radius: 5px;
+	background-color: #d6d7db;
+	border: 1px solid #c2c2d1;
+	margin-bottom: 0.8rem;
+}
+
+button {
+	color: #ffffff;
+	padding: 0.7rem 0;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+button[type="submit"] {
+	width: 30%;
+	border: 1px solid #3b1ebd;
+	background-color: #3b1ebd;
+}
+
+button[type="button"] {
+	background-color: #13a013;
+	width: 13%;
+}
+form button:first-of-type + p {
+	/* color; */
+	/* border-bottom: 2px solid red; */
+}
 /* body :last-child {
 	display: unset;
 } */
