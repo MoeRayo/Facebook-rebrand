@@ -1,6 +1,6 @@
 # Facebook Rebrand
 
-_-by Moronfolu Olufunke_
+_- by Moronfolu Olufunke_
 
 This challenge is a new version of a challenge given to me earlier this year.
 The design of this webpage is a clone of the original facebook and I followed all the design as best as I could.
@@ -15,7 +15,6 @@ The design of this webpage is a clone of the original facebook and I followed al
 
 1. Viewing the page on a laptop or desktop will give you this:
    ![Laptop Design preview for Facebook Rebranding page](./design/laptop-design.png)
-
 2. Viweing the page on a touch device will display this:
    ![Touch Screen Design preview for Facebook Rebranding page](./design/touchscreen-design.png)
 
