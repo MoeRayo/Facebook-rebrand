@@ -5,7 +5,7 @@ _- by Moronfolu Olufunke_
 This challenge is a new version of a challenge given to me earlier this year.
 The design of this webpage is a clone of the original facebook and I followed all the design as best as I could.
 
-## What this new version includes:
+## What this new version includes
 
 -  it is responsive on all screen sizes in accordance to the original site it was developed from.
 
