@@ -9,7 +9,7 @@ The design of this webpage is a clone of the original facebook and I followed al
 
 -  it is responsive on all screen sizes in accordance to the original site it was developed from.
 
--  it shows a completely different content based on the device you are using to view it.
+-  it shows completely different contents based on the device you are using to view it.
 
 ## Usage
 
