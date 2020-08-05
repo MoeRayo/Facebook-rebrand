@@ -1,4 +1,4 @@
-# My Facebook Rebrand
+# Facebook Rebrand
 
 _- by Moronfolu Olufunke_
 
